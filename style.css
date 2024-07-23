@@ -26,11 +26,17 @@ h3 {
     font-weight: normal;
     font-size: 35px;
     color: #545454;
+    line-height: 130%;
+    word-spacing: 15px;
 }
-.background {
+.background-dark{
     max-width: 100%;
     height: 908px;
     background-image: url(image/start-screen-gradient-background.jpg);
+}
+.background-light{
+    max-width: 100%;
+    background-color: #F6F6F6;
 }
 header {
     max-width: 1200px;
@@ -86,7 +92,7 @@ nav {
 
   /*start-content*/
   .start-content {
-    width: 36%;
+    width: 34%;
     height: 322px;
     margin-top: 163px;
     color: #FFFFFF;
@@ -95,7 +101,7 @@ nav {
     width: 58%;
     height: 728px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .start-dog image {
     width: 100%;
@@ -110,6 +116,9 @@ nav {
     height: 52px;
     background-color: #F1CDB3;
     border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 130%;
 }
 
 /* about section*/
@@ -133,8 +142,9 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     width: 430px;
-    height: 380px;
+    height: 400px;
     margin-left: 120px;
+    letter-spacing: 6%;
 }
 .text-about p{
     font-family: Arial, Helvetica, sans-serif;
@@ -143,4 +153,65 @@ nav {
     line-height: 160%;
     text-align: left;
     
+}
+
+/* friensds section*/
+#friends{
+   height: 877px; 
+}
+.pets-content{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 697px;
+    margin: 80px 0;
+ }
+ .pets-content h3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+ }
+ .pets-slider{
+    display: flex;
+    width: 100%;
+    height: 435px;
+    margin-top: 60px;
+ }
+ .arrow-left{
+    width: 52px;
+    height: 52px;
+    border-color: #F1CDB3;
+    border-radius: 50%;
+    border: solid 2px #F1CDB3;
+    margin-top: 192px;
+    background-color: white;
+ }
+.pets-card{
+    width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.pets-card img{
+    width: 100%;
+    height: 270px;
+}
+.pets-name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 130%;
+    font-size: 20px;
+
+}
+.learn{
+    width: 187px;
+    height: 52px;
+    border: solid 2px #F1CDB3;
+    border-radius: 100px;
+    background-color: #FAFAFA;
+    font-size: 17px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
 }
