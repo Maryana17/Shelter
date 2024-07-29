@@ -121,7 +121,7 @@ nav {
     margin: 40px 0;
     line-height: 1.6;
   }
-.start {
+button.start {
     width: 210px;
     height: 57px;
     background-color: #F1CDB3;
@@ -130,6 +130,11 @@ nav {
     font-size: 17px;
     line-height: 130%;
     letter-spacing: 0.7px;
+    cursor: pointer;
+}
+button.start:hover{
+    cursor: pointer;
+    background-color: #FDDCC4;
 }
 
 /* about section*/
@@ -208,6 +213,10 @@ nav {
     margin-top: 192px;
     background-color: white;
  }
+ .arrow-left:hover, .arrow-right:hover{
+    cursor: pointer;
+    background-color: #FDDCC4;
+ }
 .pets-card{
     width: 270px;
     height: 435px;
@@ -220,6 +229,9 @@ nav {
 .pets-card img{
     width: 100%;
     height: 270px;
+}
+.pets-card:hover{
+    cursor: pointer;
 }
 .pets-name{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -237,6 +249,11 @@ nav {
     font-family:  Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 6%;
     line-height: 130%;
+    cursor: pointer;
+}
+.learn:hover{
+    cursor: pointer;
+    background-color: #FDDCC4;
 }
 .get_pets{
     width: 265px;
@@ -249,6 +266,10 @@ nav {
     line-height: 130%;
     letter-spacing: 1px;
     margin-top: 60px;
+}
+button.get_pets:hover{
+    cursor: pointer;
+    background-color: #FDDCC4;
 }
 
 /* section help */
