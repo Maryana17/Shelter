@@ -164,7 +164,11 @@ button.start:hover{
     width: 430px;
     height: 400px;
     margin-left: 120px;
-    letter-spacing: 6%;
+    margin-top: 2px;
+}
+.text-about h3{
+    letter-spacing: 1.3px;
+    word-spacing: 7px;
 }
 .text-about p{
     font-family: Arial, Helvetica, sans-serif;
@@ -283,7 +287,7 @@ button.get_pets:hover{
         width: 100%;
         flex-direction: column;
         align-items: center;
-        margin: 90px 0;
+        margin: 80px 0 100px;
         height: 431px;
     }
     .help-list {
@@ -296,7 +300,7 @@ button.get_pets:hover{
 
     /* section contacts*/
 
-    #contacts{
+    #donation{
         height: 462px;
     }
     .donation-content{
@@ -305,9 +309,20 @@ button.get_pets:hover{
         height: 282px;
         margin: 80px auto 100px;
     }
+    .donation-content img{
+        width: 505px;
+        height: 261px;
+    }
     .donation-text{
         width: 380px;
         height: 282px;
+    }
+    .donation-text p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 1px;
+        color: #545454;
     }
 
     /* footer */
